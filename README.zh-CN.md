@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-121-9633af" alt="条目: 121" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-135-9633af" alt="条目: 135" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 121 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 135 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -61,17 +61,17 @@ curl https://api.token360.ai/v1/videos \
 
 ## 目录
 
-- [视频生成与提示词](#视频生成与提示词) (12)
-- [短剧与叙事](#短剧与叙事) (9)
-- [剪辑与动效 Agent](#剪辑与动效-agent) (28)
-- [配音、TTS 与音乐](#配音tts-与音乐) (20)
+- [视频生成与提示词](#视频生成与提示词) (14)
+- [短剧与叙事](#短剧与叙事) (10)
+- [剪辑与动效 Agent](#剪辑与动效-agent) (30)
+- [配音、TTS 与音乐](#配音tts-与音乐) (25)
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (7)
 - [广告与营销视频](#广告与营销视频) (7)
-- [ComfyUI 与 MCP 连接器](#comfyui-与-mcp-连接器) (11)
+- [ComfyUI 与 MCP 连接器](#comfyui-与-mcp-连接器) (14)
 - [工作流拆解（帖子）](#工作流拆解帖子) (11)
 - [值得关注的作者](#值得关注的作者) (4)
-- [相关列表](#相关列表) (4)
+- [相关列表](#相关列表) (5)
 
 ## 视频生成与提示词
 
@@ -84,9 +84,11 @@ curl https://api.token360.ai/v1/videos \
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.4k · MIT · 把一句想法写成可直接投喂 Seedance 2.x 的视频提示词的 Agent Skill。
 - [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 版，原项目 [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) · ⭐ 4.4k · MIT · Dex 的 Seedance 提示词写作 Skill，外加一个只用标准库的 Python 脚本，在 Token360 上用 Seedance 2.5 把提示词直接渲染成视频，并附示例片段。
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 2.2k · Apache-2.0 · 在消费级显卡和 Mac 上本地运行开源 MiniMax H3 音视频模型，附社区各型号显卡实测速度。 ⚠️ 代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。
-- [edenfunf/reelmimic](https://github.com/edenfunf/reelmimic) - `Repo` · ⭐ 3.7k · MIT · 给它一条你喜欢的视频，Claude Code / Codex 里的多 Agent 小组会和你一起拆解、重建、互评，产出同风格的新视频。
 - [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director) - `Skill` · ⭐ 2.4k · MIT · 把实测过的火柴人动画画风整理成一个导演 skill：给一个话题，它先出一份待你确认的导演方案，再按每十秒一条拆出独立的视频提示词，附旁白和音效提示；四种画风，时长按十秒为单位任选。
 - [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) - `Skill` · ⭐ 1.7k · MIT · 一个主题一条流水线出 4K 解说播客视频：查资料、写稿、用本地 EdgeTTS 或 Azure 配音（不依赖外部引擎），每支片子都有记录素材许可来源的 manifest，字幕用 Remotion 原生渲染，另出 9:16 高光短片和各平台发布文案。
+- [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · 在本地桌面运行 LTX 文生视频、图生视频和音频驱动视频，并支持片段重生成与延长。
+- [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0 用流式神经渲染把游戏引擎画面转换成交互视频，提供离线推理与浏览器演示。
+- [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · 在浏览器里做开源预演：搭景、摆位、设计运镜，再把首帧、灰模参考片和描述真实取景的提示词一起交给 AI 视频模型。
 
 ## 短剧与叙事
 
@@ -99,6 +101,7 @@ curl https://api.token360.ai/v1/videos \
 - [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) - `Repo` · ⭐ 3.5k · Apache-2.0 · AI 剪辑 Agent：用自然语言“导演”代替手动剪辑，支持 MCP 与 Agent Skills。
 - [alibaba/lumenx](https://github.com/alibaba/lumenx) - `Repo` · ⭐ 1.4k · MIT · 阿里开源的 AI 短漫剧一站式平台：小说文本 → 剧本分析 → 角色定制 → 分镜 → 视频合成。
 - [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) - `Repo` ⛔ · ⭐ 16.4k · CC-BY-NC-SA-4.0 · 中文 AI 短剧星数最高的项目：剧本 → 分镜 → 成片全流程，作为品类参考收录。
+- [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) - `Skill` · ⭐ 1.7k · MIT · 把短剧创作拆成剧本、资产、分镜、打戏和质检流程，输出可投喂 Seedance 或 MiniMax 的视频提示词。
 
 ## 剪辑与动效 Agent
 
@@ -106,7 +109,6 @@ curl https://api.token360.ai/v1/videos \
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 67.7k · Apache-2.0 · 写 HTML 就能渲染视频的动效框架，专为 Agent 调用设计。
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 12.5k · Apache-2.0 · 用 Remotion 做电影感产品视频的 Claude Code / Codex Skill：镜头配方卡、动效预览和生产模板。 ⚠️ 依赖 Remotion 渲染，Remotion 自身许可对部分公司商用场景要求付费授权。
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 95.4k · MIT · 免费开源的视频编辑器，支持网页、桌面和移动端，定位为 CapCut（剪映）的开源替代。
-- [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 4.3k · MIT · 让 Agent 自动操作剪映草稿、完成剪辑的 Skill。
 - [browser-use/video-use](https://github.com/browser-use/video-use) - `Repo` · ⭐ 29.4k · MIT · browser-use 团队出品：让编程 Agent 基于逐词转写把原始素材剪成成片，并烧录字幕。
 - [linyqh/NarratoAI](https://github.com/linyqh/NarratoAI) - `Repo` · ⭐ 11.5k · MIT · 一键生成影视解说视频：大模型写解说文案，自动配音并剪辑成片。
 - [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) - `Repo` · ⭐ 9.6k · MIT · 把播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels、Shorts。
@@ -130,6 +132,9 @@ curl https://api.token360.ai/v1/videos \
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · 七个 skill 把一段或几段视频做成中文解说成片：Agent 看懂画面与对白，定故事和视听方案，再剪辑、写稿、配音、混音、上字幕；本地只要 ffmpeg，成片还能一键导成剪映草稿继续改。
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · 一句话说清要什么片，一组 Agent skill 负责导，渲染全在你自己的机器上，不需要 GPU；项目自己的 55 秒合集片就是在纯 CPU 上 2 分 23 秒渲出来的。同时提供 skill 包、MCP server 和插件三种接法。
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · 不做黑盒视频 Agent：一支片子就是一份可读、可 diff 的 `plan.json`，你和 Agent 都能逐行改，改哪段只重渲哪段；底层是 HyperFrames、ffmpeg 和 whisper.cpp 的确定性薄封装，命令行或 MCP 都能驱动。
+- [soumatheusgomes/editonny](https://github.com/soumatheusgomes/editonny) - `Skill` · ⭐ 367 · MIT · 通过对话检查本地录像、删停顿、加字幕与动效，先审阅样片再导出 MP4。
+- [actionow-ai/vvv](https://github.com/actionow-ai/vvv) - `Skill` · ⭐ 392 · MIT · 用可复用模板和 Agent Skill，把照片与文案制作成经过检查的婚礼视频，并交付可编辑工程。
+- [storytold/filmcraft](https://github.com/storytold/filmcraft) - `Repo` · ⭐ 16.4k · Apache-2.0 · 非线性视频剪辑器，通过 CLI 和 MCP 让 Agent 使用与桌面界面相同的指令剪辑、调色、混音与导出。
 
 ## 配音、TTS 与音乐
 
@@ -153,6 +158,11 @@ curl https://api.token360.ai/v1/videos \
 - [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - `Repo` ⛔ · ⭐ 33.3k · Fish Audio Community License 1.0 · 多语言、多说话人语音合成与音色克隆的权重开放参考项目，自带 Web UI、推理 API 和 Docker 镜像。 ⚠️ 非 OSI 许可：商用只在年营收低于 50 万美元时免费，把它做成对外的 TTS / 音色克隆托管服务需要单独向 Fish Audio 取得书面授权。
 - [Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK) - `Repo` · ⭐ 1.5k · MIT · 权重公开的语音生成模型，难得的是还能做语音编辑：零样本 TTS、音色克隆、增强、分离和目标说话人提取在一个模型里，附带蒸馏出更快的 Flash 版的训练流程、ComfyUI 节点、Apple Silicon 上的 MLX 推理，以及通过 audio.cpp 的 GGUF 离线推理。
 - [bitwize-music-studio/claude-ai-music-skills](https://github.com/bitwize-music-studio/claude-ai-music-skills) - `Skill` · ⭐ 572 · CC0-1.0 · 把一段对话变成整张专辑的生产线：概念策划、并行查证（交叉核对来源）、写词、生成 Suno 提示词、母带处理到发行准备，每个阶段都有质量关卡。 ⚠️ 出歌这一步走你自己的付费 Suno 账号；仓库给的是工作流、提示词和母带处理，不含本地模型。
+- [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) - `Repo` · ⭐ 8.1k · MIT · 在 Apple Silicon 上通过 MLX 运行语音合成、识别和语音转换，适合把本地配音能力接进创作脚本。
+- [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) - `Repo` · ⭐ 1.4k · MIT · 把 YuE2 歌曲生成做成带可编辑乐谱的本地桌面工作台，支持人声歌曲和可重复生成。
+- [soniqo/speech-swift](https://github.com/soniqo/speech-swift) - `Repo` · ⭐ 1.2k · Apache-2.0 · 用 Swift 把 MLX 与 CoreML 的语音合成、识别、分离说话人和语音转换能力接入 Apple 应用。
+- [IAHispano/Applio](https://github.com/IAHispano/Applio) - `Repo` · ⭐ 3.9k · MIT · 用本地界面训练与运行声音转换模型，把已有录音转换为目标音色。
+- [bytedance/MegaTTS3](https://github.com/bytedance/MegaTTS3) - `Repo` · ⭐ 6.1k · Apache-2.0 · 提供带可调相似度和发音参数的语音合成研究实现，推理需配套的参考音频与预提取潜变量。
 
 ## 翻译配音与字幕
 
@@ -198,6 +208,9 @@ curl https://api.token360.ai/v1/videos \
 - [AIMixer/ComfyUI_MiniMaxH3_Director](https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director) - `Node` · ⭐ 2.5k · Apache-2.0 · 基于 ComfyUI 官方 MiniMax H3 节点的多段导演节点，附示例工作流。 ⚠️ 代码为 Apache-2.0，但 MiniMax H3 权重采用自定义的 MiniMax H3 Community License（美国/欧盟/英国/韩国用户需另行申请），商用前请先阅读。
 - [Carasibana/ComfyUI-H3-FaceRefine](https://github.com/Carasibana/ComfyUI-H3-FaceRefine) - `Node` · ⭐ 524 · MIT · 专治 MiniMax H3 出片里小脸糊的 ComfyUI 节点：逐帧人脸追踪、裁切、用 H3 重绘再贴回，附两个示例工作流。
 - [Songssx/ComfyUI-MiniMaxH3-TimelineDirector](https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector) - `Node` · ⭐ 659 · GPL-3.0 · 给 ComfyUI 的 MiniMax H3 参考生视频加上可编辑参考素材时间线的节点，附 4 个可直接导入的示例工作流（含低显存版）。
+- [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · 把本地采访或播客裁成带字幕的竖屏短片，并提供编辑记录与质量检查，适合 Agent 可复核的剪辑链路。
+- [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · 分析本地视频、推荐附许可信息的背景音乐，并导出音量避让与混音指令的 MCP 服务。
+- [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · 用本地 Stable Audio 3 生成背景音乐和音效的 MCP 服务，并能做无缝循环、响度归一化，导出给剪辑软件或游戏引擎。 ⚠️ 2026-10-18 建仓、单人维护；实际生成需要 Apple Silicon（MLX）或 NVIDIA 显卡，Stable Audio 3 运行时由安装脚本另行克隆。
 
 ## 工作流拆解（帖子）
 
@@ -226,6 +239,7 @@ curl https://api.token360.ai/v1/videos \
 - [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) - `List` · ⭐ 2.8k · MIT · Seedance 2.0 提示词、指南和视频生成工作流合集。
 - [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) - `List` · ⭐ 34.7k · MIT · GPT Image 2 / 2.5 提示词与案例库，附模板；适合做视频前的关键帧和分镜。
 - [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) - `List` · ⭐ 2.2k · CC-BY-4.0 · 2000+ 条精选 Seedance 2.0 视频提示词，覆盖电影感、动漫、UGC、广告、梗视频等风格，附 API 指南和角色一致性技巧。
+- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) - `List` · ⭐ 1k · CC0-1.0 · 收录 353 个让编码 Agent 做视频的开源 skill 与工具包的清单，每条都逐个读过并标了安全等级。 ⚠️ 清单和条目链接大量导向维护者自营的 Agent Skills Hub 站点，并带跟踪参数。
 
 ## 参与贡献
 

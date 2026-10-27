@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-121-9633af" alt="entries: 121" />
+  <img src="https://img.shields.io/badge/entries-135-9633af" alt="entries: 135" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 121 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 135 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -61,17 +61,17 @@ curl https://api.token360.ai/v1/videos \
 
 ## 目次
 
-- [動画生成とプロンプト](#動画生成とプロンプト) (12)
-- [ショートドラマとストーリー](#ショートドラマとストーリー) (9)
-- [編集・モーションエージェント](#編集モーションエージェント) (28)
-- [音声・TTS・音楽](#音声tts音楽) (20)
+- [動画生成とプロンプト](#動画生成とプロンプト) (14)
+- [ショートドラマとストーリー](#ショートドラマとストーリー) (10)
+- [編集・モーションエージェント](#編集モーションエージェント) (30)
+- [音声・TTS・音楽](#音声tts音楽) (25)
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (7)
 - [広告・マーケティング動画](#広告マーケティング動画) (7)
-- [ComfyUI と MCP コネクタ](#comfyui-と-mcp-コネクタ) (11)
+- [ComfyUI と MCP コネクタ](#comfyui-と-mcp-コネクタ) (14)
 - [ワークフロー解説（投稿）](#ワークフロー解説投稿) (11)
 - [注目の作り手](#注目の作り手) (4)
-- [関連リスト](#関連リスト) (4)
+- [関連リスト](#関連リスト) (5)
 
 ## 動画生成とプロンプト
 
@@ -84,9 +84,11 @@ curl https://api.token360.ai/v1/videos \
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.4k · MIT · ざっくりしたアイデアから、そのまま使える Seedance 2.x 用の動画プロンプトを書くエージェントスキル。
 - [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 版（元: [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill)） · ⭐ 4.4k · MIT · Dex による Seedance プロンプト作成スキルに、Token360 上の Seedance 2.5 でプロンプトをそのまま動画にする標準ライブラリだけの Python スクリプトとサンプル動画を加えたもの。
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 2.2k · Apache-2.0 · オープンな MiniMax H3 音声付き動画モデルを一般向け GPU や Mac で動かすローカル推論ツール。GPU ごとのコミュニティ実測あり。 ⚠️ コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。
-- [edenfunf/reelmimic](https://github.com/edenfunf/reelmimic) - `Repo` · ⭐ 3.7k · MIT · 好きな動画を渡すと、Claude Code や Codex 上のマルチエージェント班が同じスタイルの新しい動画を一緒に設計・制作・レビューします。
 - [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director) - `Skill` · ⭐ 2.4k · MIT · 実際に試した棒人間アニメの画風を集め、ディレクタースキルに仕立てたもの。テーマを渡すと、まず承認用の演出プランを返し、その後 10 秒クリップごとに独立したプロンプト（ナレーションと効果音の指示付き）を出力します。画風は 4 種類、尺は 10 秒単位で自由に設定できます。
 - [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) - `Skill` · ⭐ 1.7k · MIT · テーマひとつから 4K のナレーション付きビデオポッドキャストまでを一本のパイプラインで。リサーチ、台本、外部エンジン不要のローカル TTS（Edge / Azure）、素材ごとのライセンスを記録するマニフェスト、Remotion ネイティブ字幕、9:16 のハイライト、プラットフォーム別の投稿文まで生成します。
+- [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · LTXによるテキスト・画像・音声からの動画生成をローカルで実行し、クリップの再生成と延長に対応するデスクトップアプリ。
+- [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0はゲームエンジンのフレームをストリーミングニューラルレンダリングで対話型動画に変換し、オフライン推論とブラウザデモを提供します。
+- [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · ブラウザで動くオープンソースのプレビズ。セットと配置、カメラの割りを先に決め、最初のフレーム・グレーボックスのクリップ・プロンプトをAI動画モデルに渡します。
 
 ## ショートドラマとストーリー
 
@@ -99,6 +101,7 @@ curl https://api.token360.ai/v1/videos \
 - [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) - `Repo` · ⭐ 3.5k · Apache-2.0 · 自然言語で指示するだけで手作業の編集を「演出」に変える動画編集エージェント。MCP とエージェントスキルに対応。
 - [alibaba/lumenx](https://github.com/alibaba/lumenx) - `Repo` · ⭐ 1.4k · MIT · 小説のテキストをアニメ調ショートドラマにする Alibaba のオープンソーススタジオ。脚本分析、キャラクター設定、絵コンテ、動画合成まで対応。
 - [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) - `Repo` ⛔ · ⭐ 16.4k · CC-BY-NC-SA-4.0 · 脚本から絵コンテ、生成エピソードまでを扱う、中国語圏で最もスターの多い AI ショートドラマ制作パイプライン。カテゴリの参照先として掲載。
+- [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) - `Skill` · ⭐ 1.7k · MIT · 脚本・素材・絵コンテ・アクション・品質確認を段階化し、動画モデル向けの短編ドラマ用プロンプトを作る。
 
 ## 編集・モーションエージェント
 
@@ -106,7 +109,6 @@ curl https://api.token360.ai/v1/videos \
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 67.7k · Apache-2.0 · HTML を書けば動画にレンダリングできるモーションフレームワーク。エージェントから扱う前提で設計されています。
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 12.5k · Apache-2.0 · Remotion でシネマティックな製品動画を作る Claude Code / Codex スキル。ショットのレシピカード、モーションプレビュー、制作用テンプレート付き。 ⚠️ レンダリングに Remotion を使用。Remotion 本体のライセンスは一部の企業利用で有償ライセンスが必要です。
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 95.4k · MIT · Web・デスクトップ・モバイルで使える無料のオープンソース動画エディター。CapCut の代替として開発されています。
-- [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 4.3k · MIT · 剪映（CapCut 中国版）のプロジェクト下書きを書き換えて編集を自動化するエージェントスキル。
 - [browser-use/video-use](https://github.com/browser-use/video-use) - `Repo` · ⭐ 29.4k · MIT · browser-use チームによる、コーディングエージェントが単語単位の文字起こしから素材を完成動画に編集するツール。字幕の焼き込みにも対応。
 - [linyqh/NarratoAI](https://github.com/linyqh/NarratoAI) - `Repo` · ⭐ 11.5k · MIT · 映画やドラマの解説動画をワンクリックで作成。LLM がナレーション原稿を書き、音声と編集まで自動で仕上げます。
 - [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) - `Repo` · ⭐ 9.6k · MIT · ポッドキャストやインタビュー、講座などの長尺動画を、字幕・サムネイル・投稿文付きのショート動画に自動で切り出します。
@@ -130,6 +132,9 @@ curl https://api.token360.ai/v1/videos \
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · 7 つのスキルで、1 本または複数の動画を中国語ナレーションの完成尺に仕上げます。エージェントが映像とセリフを読み、構成を決め、編集・原稿・音声・ミックス・字幕まで担当。ローカルに必要なのは ffmpeg だけで、成果物は剪映（CapCut 中国版）の下書きとして書き出して続きを編集できます。
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · 作りたい映像を一文で伝えると、エージェントスキルの「クルー」が演出し、レンダリングは手元のマシンで完結します（GPU 不要）。公式の 55 秒ショーリールは CPU のみで 2 分 23 秒で書き出されました。スキルパック・MCP サーバー・プラグインの 3 形態を同梱。
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · ブラックボックスの動画エージェントではありません。1 本の動画は読める・差分が取れる `plan.json` で、あなたもエージェントも 1 行ずつ編集でき、変えた部分だけ再レンダリングされます。中身は HyperFrames・ffmpeg・whisper.cpp の決定的な薄いラッパーで、シェルからも MCP からも操作できます。
+- [soumatheusgomes/editonny](https://github.com/soumatheusgomes/editonny) - `Skill` · ⭐ 367 · MIT · 対話でローカル録画を編集し、サンプル確認後にカット・字幕・モーション付き MP4 を書き出す。
+- [actionow-ai/vvv](https://github.com/actionow-ai/vvv) - `Skill` · ⭐ 392 · MIT · 再利用可能なテンプレートとエージェントスキルで、写真と文章から検証済みのウェディング動画と編集可能なプロジェクトを作成します。
+- [storytold/filmcraft](https://github.com/storytold/filmcraft) - `Repo` · ⭐ 16.4k · Apache-2.0 · CLIとMCPを通じて、デスクトップUIと同じコマンドでエージェントが編集・カラー調整・ミキシング・書き出しを行える動画エディター。
 
 ## 音声・TTS・音楽
 
@@ -153,6 +158,11 @@ curl https://api.token360.ai/v1/videos \
 - [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - `Repo` ⛔ · ⭐ 33.3k · Fish Audio Community License 1.0 · 多言語・複数話者の音声合成と音声クローンにおける、重み公開型のリファレンス TTS スタック。Web UI、推論 API、Docker イメージを同梱。 ⚠️ OSI ライセンスではありません。商用利用は年間売上 50 万米ドル未満の場合のみ無償で、ホスティング型の TTS・音声クローンサービスとして提供するには Fish Audio との個別契約が必要です。
 - [Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK) - `Repo` · ⭐ 1.5k · MIT · 重みが公開された音声生成モデルで、珍しく音声編集にも対応。ゼロショット TTS、声のクローン、強調、分離、話者抽出を 1 つのモデルで行えます。高速版 Flash を自前で蒸留する学習パイプライン、ComfyUI ノード、Apple Silicon 向け MLX 推論、audio.cpp 経由の GGUF オフライン推論も用意されています。
 - [bitwize-music-studio/claude-ai-music-skills](https://github.com/bitwize-music-studio/claude-ai-music-skills) - `Skill` · ⭐ 572 · CC0-1.0 · 会話をアルバム 1 枚分の制作ラインに変えるスキル。コンセプト設計、出典を相互検証する並列リサーチ、作詞、Suno 用プロンプト、マスタリング、リリース準備までを各段階の品質ゲート付きで進めます。 ⚠️ 生成そのものは自分の有料 Suno アカウント経由です。リポジトリが提供するのはワークフロー・プロンプト・マスタリングで、ローカルモデルは含まれません。
+- [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) - `Repo` · ⭐ 8.1k · MIT · Apple Silicon 上で MLX による音声合成・認識・音声変換をローカル実行。
+- [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) - `Repo` · ⭐ 1.4k · MIT · 編集可能な楽譜と再生成に対応するデスクトップ環境で、YuE2 の歌声付き楽曲をローカル生成。
+- [soniqo/speech-swift](https://github.com/soniqo/speech-swift) - `Repo` · ⭐ 1.2k · Apache-2.0 · Swift・MLX・CoreML を使い、音声合成・認識・話者分離・音声変換を Apple アプリに組み込む。
+- [IAHispano/Applio](https://github.com/IAHispano/Applio) - `Repo` · ⭐ 3.9k · MIT · ローカル UI で音声変換モデルを学習・実行し、既存録音を目的の声質へ変換する。
+- [bytedance/MegaTTS3](https://github.com/bytedance/MegaTTS3) - `Repo` · ⭐ 6.1k · Apache-2.0 · 類似度と発音を調整できる音声合成研究実装で、参照音声と事前抽出済み潜在表現が必要。
 
 ## 吹き替えと字幕
 
@@ -198,6 +208,9 @@ curl https://api.token360.ai/v1/videos \
 - [AIMixer/ComfyUI_MiniMaxH3_Director](https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director) - `Node` · ⭐ 2.5k · Apache-2.0 · ComfyUI 公式の MiniMax H3 ノード向けの、複数セグメントを演出するディレクターノード。サンプルワークフロー付き。 ⚠️ コードは Apache-2.0 ですが、MiniMax H3 の重みは独自の MiniMax H3 Community License（米国・EU・英国・韓国のユーザーは申請が必要）です。商用利用の前に確認してください。
 - [Carasibana/ComfyUI-H3-FaceRefine](https://github.com/Carasibana/ComfyUI-H3-FaceRefine) - `Node` · ⭐ 524 · MIT · MiniMax H3 の出力でぼやけがちな小さい顔を直す ComfyUI ノード。フレームごとの顔追跡、切り出し、H3 での再生成、貼り戻しまで行い、サンプルワークフロー 2 本付き。
 - [Songssx/ComfyUI-MiniMaxH3-TimelineDirector](https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector) - `Node` · ⭐ 659 · GPL-3.0 · ComfyUI の MiniMax H3 参照動画生成に、編集可能な参照素材タイムラインを追加するノード。低 VRAM 版を含むインポート可能なサンプルワークフロー 4 本付き。
+- [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · ローカル動画を切り抜き、字幕と縦型版を作り、編集記録と品質チェックを返す MCP サーバー。
+- [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · ローカル動画を分析し、ライセンス情報付きのBGM候補とダッキング・ミキシング指示を返すMCPサーバー。
+- [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · ローカルのStable Audio 3でBGMと効果音を生成し、シームレスループ化・ラウドネス調整・書き出しまで行うMCPサーバー。動画編集ソフトやゲームエンジンにそのまま渡せます。 ⚠️ 2026-10-18作成、メンテナー1名。生成にはApple Silicon（MLX）かNVIDIA GPUが必要で、Stable Audio 3ランタイムはインストーラーが別途取得します。
 
 ## ワークフロー解説（投稿）
 
@@ -226,6 +239,7 @@ curl https://api.token360.ai/v1/videos \
 - [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) - `List` · ⭐ 2.8k · MIT · Seedance 2.0 のプロンプト、ガイド、動画生成ワークフローのまとめ。
 - [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) - `List` · ⭐ 34.7k · MIT · GPT Image 2 / 2.5 のプロンプトと事例集（テンプレート付き）。動画化前のキーフレームや絵コンテ作りに。
 - [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) - `List` · ⭐ 2.2k · CC-BY-4.0 · 映画風、アニメ、UGC、広告、ミームなど 2,000 以上の Seedance 2.0 動画プロンプトを厳選。API ガイドとキャラクター一貫性のコツ付き。
+- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) - `List` · ⭐ 1k · CC0-1.0 · コーディングエージェントで動画を作るためのオープンソーススキル・ツールキット353件をまとめたリスト。各項目を読み込み、安全性の評価を付けています。 ⚠️ リストと各項目はメンテナー自身が運営するAgent Skills Hubへトラッキングパラメータ付きでリンクしています。
 
 ## コントリビュート
 

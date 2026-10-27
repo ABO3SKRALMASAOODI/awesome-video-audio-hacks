@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-121-9633af" alt="entries: 121" />
+  <img src="https://img.shields.io/badge/entries-135-9633af" alt="entries: 135" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>121 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>135 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -61,17 +61,17 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 
 ## Contents
 
-- [Video generation & prompting](#video-generation--prompting) (12)
-- [Short drama & storytelling](#short-drama--storytelling) (9)
-- [Editing & motion agents](#editing--motion-agents) (28)
-- [Voice, TTS & music](#voice-tts--music) (20)
+- [Video generation & prompting](#video-generation--prompting) (14)
+- [Short drama & storytelling](#short-drama--storytelling) (10)
+- [Editing & motion agents](#editing--motion-agents) (30)
+- [Voice, TTS & music](#voice-tts--music) (25)
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (7)
 - [Ads & marketing video](#ads--marketing-video) (7)
-- [ComfyUI & MCP connectors](#comfyui--mcp-connectors) (11)
+- [ComfyUI & MCP connectors](#comfyui--mcp-connectors) (14)
 - [Workflow breakdowns (posts)](#workflow-breakdowns-posts) (11)
 - [People to follow](#people-to-follow) (4)
-- [Related lists](#related-lists) (4)
+- [Related lists](#related-lists) (5)
 
 ## Video generation & prompting
 
@@ -84,9 +84,11 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) - `Skill` · ⭐ 4.4k · MIT · Agent skill that writes model-ready Seedance 2.x video prompts from a plain idea.
 - [token360-community/seedance-prompt-skill](https://github.com/token360-community/seedance-prompt-skill) - `Skill` ⚡ · 🔷 Token360 edition of [dexhunter/seedance2-skill](https://github.com/dexhunter/seedance2-skill) · ⭐ 4.4k · MIT · Dex's Seedance prompt-writing skill plus a standard-library Python script that renders the prompts as Seedance 2.5 clips on Token360, with sample clips.
 - [FlashML-org/FreeVideo](https://github.com/FlashML-org/FreeVideo) - `Repo` · ⭐ 2.2k · Apache-2.0 · Runs the open MiniMax H3 audio-video model on consumer GPUs and Macs, with community speed reports per card. ⚠️ Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.
-- [edenfunf/reelmimic](https://github.com/edenfunf/reelmimic) - `Repo` · ⭐ 3.7k · MIT · Point it at a video you like and a multi-agent crew in Claude Code or Codex plans, builds and reviews a new video in the same style with you.
 - [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director) - `Skill` · ⭐ 2.4k · MIT · A tested library of stick-figure animation styles turned into a director skill: give it a topic and it returns a director's proposal for your approval, then one standalone prompt per ten-second clip with voice-over and sound-effect cues, in four visual styles and any length in ten-second steps.
 - [Agents365-ai/video-podcast-maker](https://github.com/Agents365-ai/video-podcast-maker) - `Skill` · ⭐ 1.7k · MIT · A topic becomes a 4K narrated video podcast in one pipeline: research, script, local Edge or Azure TTS with no external engine, a per-video asset manifest that records each clip's licence, Remotion-native subtitles, a 9:16 highlight cut and per-platform publishing copy.
+- [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · A local desktop app for LTX text-, image-, and audio-to-video generation, with clip retakes and extensions.
+- [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0 transforms game-engine frames into interactive video through streaming neural rendering, with offline inference and a browser demo.
+- [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · Open-source previs in a browser tab: block the set, pose the cast and cut the camera, then hand the shot to an AI video model as a first frame, a greybox clip and a prompt.
 
 ## Short drama & storytelling
 
@@ -99,6 +101,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) - `Repo` · ⭐ 3.5k · Apache-2.0 · Video editing agent that turns manual cutting into directing by natural language, with MCP and agent-skill integrations.
 - [alibaba/lumenx](https://github.com/alibaba/lumenx) - `Repo` · ⭐ 1.4k · MIT · Alibaba's open-source studio that turns novel text into animated short dramas: script analysis, character design, storyboards and video assembly.
 - [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) - `Repo` ⛔ · ⭐ 16.4k · CC-BY-NC-SA-4.0 · The most-starred Chinese AI short-drama pipeline, from script to storyboard to generated episodes; listed as the category reference.
+- [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) - `Skill` · ⭐ 1.7k · MIT · Plan short dramas through script, asset, storyboard, action and quality-control stages that produce prompts for video models.
 
 ## Editing & motion agents
 
@@ -106,7 +109,6 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) - `Repo` · ⭐ 67.7k · Apache-2.0 · Write HTML, render video: a motion framework designed to be driven by agents.
 - [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - `Skill` · ⭐ 12.5k · Apache-2.0 · Claude Code / Codex skill for cinematic product videos with Remotion: shot recipe cards, motion previews and a production template. ⚠️ Renders with Remotion, whose own license requires a paid company license for some commercial use.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - `Repo` · ⭐ 95.4k · MIT · Free, open-source video editor for web, desktop and mobile, built as a CapCut alternative.
-- [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) - `Skill` · ⭐ 4.3k · MIT · Agent skill that automates editing in JianYing (the Chinese edition of CapCut) by writing its project drafts.
 - [browser-use/video-use](https://github.com/browser-use/video-use) - `Repo` · ⭐ 29.4k · MIT · From the browser-use team: lets coding agents cut raw footage into a finished edit from word-level transcripts, with burned-in subtitles.
 - [linyqh/NarratoAI](https://github.com/linyqh/NarratoAI) - `Repo` · ⭐ 11.5k · MIT · One-click film and TV commentary videos: the LLM writes the narration, then voice-over and cut are generated automatically.
 - [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) - `Repo` · ⭐ 9.6k · MIT · Turns long podcasts, interviews and courses into short clips with subtitles, covers and post copy for Douyin, Xiaohongshu, TikTok, Reels and Shorts.
@@ -130,6 +132,9 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · Seven agent skills that turn one or more source videos into a finished Chinese narration recap: the agent reads picture and dialogue, plans the story, cuts, writes, voices, mixes and subtitles it, needing only ffmpeg locally, and can export the result as a Jianying draft to keep editing.
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · Describe a video in one sentence and a crew of agent skills directs it while your own machine renders it, no GPU required; the project's 55-second showreel was rendered in 2 min 23 s on CPU, and it ships as a skill pack, an MCP server and a plugin.
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · Not a black-box video agent: a video is a readable, diffable `plan.json` that you and your agent can edit line by line, with only the changed piece re-rendering, over thin deterministic wrappers around HyperFrames, ffmpeg and whisper.cpp, driven from a shell or over MCP.
+- [soumatheusgomes/editonny](https://github.com/soumatheusgomes/editonny) - `Skill` · ⭐ 367 · MIT · Edit local recordings through conversation, review a sample, then export an MP4 with cuts, captions and motion scenes.
+- [actionow-ai/vvv](https://github.com/actionow-ai/vvv) - `Skill` · ⭐ 392 · MIT · Reusable video templates and an agent skill that turn photos and copy into checked wedding films and editable projects.
+- [storytold/filmcraft](https://github.com/storytold/filmcraft) - `Repo` · ⭐ 16.4k · Apache-2.0 · A nonlinear video editor whose CLI and MCP interfaces let agents cut, grade, mix, and export through the same commands as its desktop UI.
 
 ## Voice, TTS & music
 
@@ -153,6 +158,11 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) - `Repo` ⛔ · ⭐ 33.3k · Fish Audio Community License 1.0 · The reference open-weights TTS stack for multilingual, multi-speaker speech with voice cloning, shipped with a web UI, a serving API and Docker images. ⚠️ Not an OSI licence: commercial use is capped at USD 500,000 annual revenue and running it as a hosted text-to-speech or voice-cloning service requires a separate agreement with Fish Audio.
 - [Tencent-Hunyuan/AuK](https://github.com/Tencent-Hunyuan/AuK) - `Repo` · ⭐ 1.5k · MIT · Open weights for speech generation and, unusually, speech editing: zero-shot TTS, voice cloning, enhancement, separation and speaker extraction in one model, with a distillation pipeline for the faster Flash variant, ComfyUI nodes, MLX on Apple Silicon and GGUF offline inference through audio.cpp.
 - [bitwize-music-studio/claude-ai-music-skills](https://github.com/bitwize-music-studio/claude-ai-music-skills) - `Skill` · ⭐ 572 · CC0-1.0 · Turns a conversation into a full album production line: concept planning, parallel research with cross-verified sources, lyrics, Suno prompts, audio mastering and release prep, with a quality gate at every stage. ⚠️ The generation step goes through your own paid Suno account; the repo ships the workflow, prompts and mastering, not a local model.
+- [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) - `Repo` · ⭐ 8.1k · MIT · Run speech synthesis, recognition and speech-to-speech models locally on Apple Silicon through MLX.
+- [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) - `Repo` · ⭐ 1.4k · MIT · Generate vocal songs locally with YuE2 in a desktop studio with editable scores and repeatable generation.
+- [soniqo/speech-swift](https://github.com/soniqo/speech-swift) - `Repo` · ⭐ 1.2k · Apache-2.0 · Integrate speech synthesis, recognition, diarization and speech-to-speech models into Apple apps with Swift, MLX and CoreML.
+- [IAHispano/Applio](https://github.com/IAHispano/Applio) - `Repo` · ⭐ 3.9k · MIT · Train and run voice-conversion models through a local interface to transform existing recordings into a target voice.
+- [bytedance/MegaTTS3](https://github.com/bytedance/MegaTTS3) - `Repo` · ⭐ 6.1k · Apache-2.0 · Research speech synthesis with adjustable similarity and pronunciation controls, requiring reference audio and pre-extracted latents.
 
 ## Dubbing & subtitles
 
@@ -198,6 +208,9 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [AIMixer/ComfyUI_MiniMaxH3_Director](https://github.com/AIMixer/ComfyUI_MiniMaxH3_Director) - `Node` · ⭐ 2.5k · Apache-2.0 · Multi-segment director node for the official ComfyUI MiniMax H3 nodes, with example workflows. ⚠️ Code is Apache-2.0, but the MiniMax H3 weights use the custom MiniMax H3 Community License (users in the US/EU/UK/South Korea must apply); read it before commercial use.
 - [Carasibana/ComfyUI-H3-FaceRefine](https://github.com/Carasibana/ComfyUI-H3-FaceRefine) - `Node` · ⭐ 524 · MIT · ComfyUI nodes that fix the small blurry faces MiniMax H3 produces: per-frame face tracking, crop, re-refine with H3, stitch back, with two example workflows.
 - [Songssx/ComfyUI-MiniMaxH3-TimelineDirector](https://github.com/Songssx/ComfyUI-MiniMaxH3-TimelineDirector) - `Node` · ⭐ 659 · GPL-3.0 · ComfyUI node that adds an editable reference-media timeline for MiniMax H3 reference-to-video, with four importable example workflows (including a low-VRAM one).
+- [KyaniteLabs/kinocut](https://github.com/KyaniteLabs/kinocut) - `MCP` · ⭐ 222 · Apache-2.0 · A local video-editing MCP server that trims, captions and repurposes recordings with edit receipts and quality checks.
+- [js713-lab/sonic-match-mcp](https://github.com/js713-lab/sonic-match-mcp) - `MCP` · ⭐ 153 · MIT · An MCP server that analyzes local video, recommends licensed background music, and exports ducking and mixing instructions.
+- [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) - `MCP` · ⭐ 501 · MIT · MCP server that generates background music and sound effects locally with Stable Audio 3, then loops, normalizes and exports them for a video editor or game engine. ⚠️ Created 2026-10-18 with one maintainer; generation needs Apple Silicon (MLX) or an NVIDIA GPU, and the installer clones the Stable Audio 3 runtime separately.
 
 ## Workflow breakdowns (posts)
 
@@ -226,6 +239,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) - `List` · ⭐ 2.8k · MIT · Collection of Seedance 2.0 prompts, guides and video-generation workflows.
 - [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) - `List` · ⭐ 34.7k · MIT · GPT Image 2 / 2.5 prompt and case library with templates; useful for keyframes and storyboards before video.
 - [YouMind-OpenLab/awesome-seedance-2-prompts](https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts) - `List` · ⭐ 2.2k · CC-BY-4.0 · 2,000+ curated Seedance 2.0 video prompts across cinematic, anime, UGC, ad and meme styles, with API guides and character-consistency tips.
+- [zhuyansen/awesome-claude-video-skills](https://github.com/zhuyansen/awesome-claude-video-skills) - `List` · ⭐ 1k · CC0-1.0 · A curated list of 353 open-source skills and toolkits that let coding agents make video, each one read and graded for safety. ⚠️ The list and its entries link to the maintainer's own Agent Skills Hub site with tracking parameters.
 
 ## Contributing
 

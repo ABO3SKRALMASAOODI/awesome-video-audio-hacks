@@ -1,7 +1,7 @@
 {
   "name": "awesome-video-audio-hacks",
   "repo": "https://github.com/token360-community/awesome-video-audio-hacks",
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "langs": [
     "en",
     "zh-CN",
@@ -399,40 +399,6 @@
           }
         },
         {
-          "id": "edenfunf--reelmimic",
-          "type": "repo",
-          "title": "edenfunf/reelmimic",
-          "url": "https://github.com/edenfunf/reelmimic",
-          "license": "MIT",
-          "license_class": "osi",
-          "link_only": false,
-          "stars": 3662,
-          "last_commit": "2026-10-19",
-          "archived": false,
-          "model_weights": false,
-          "last_checked": "2026-10-19",
-          "added_at": "2026-10-12",
-          "source": {
-            "kind": "github-search",
-            "ref": "GitHub search + gh api 2026-10-12"
-          },
-          "token360": {
-            "ready": false,
-            "status": "untested",
-            "guide": null
-          },
-          "blurb": {
-            "en": "Point it at a video you like and a multi-agent crew in Claude Code or Codex plans, builds and reviews a new video in the same style with you.",
-            "zh-CN": "给它一条你喜欢的视频，Claude Code / Codex 里的多 Agent 小组会和你一起拆解、重建、互评，产出同风格的新视频。",
-            "ja": "好きな動画を渡すと、Claude Code や Codex 上のマルチエージェント班が同じスタイルの新しい動画を一緒に設計・制作・レビューします。"
-          },
-          "blurb_status": {
-            "en": "machine-draft",
-            "zh-CN": "machine-draft",
-            "ja": "machine-draft"
-          }
-        },
-        {
           "id": "kaomei--stickman-video-director",
           "type": "skill",
           "title": "kaomei/stickman-video-director",
@@ -493,6 +459,110 @@
             "en": "A topic becomes a 4K narrated video podcast in one pipeline: research, script, local Edge or Azure TTS with no external engine, a per-video asset manifest that records each clip's licence, Remotion-native subtitles, a 9:16 highlight cut and per-platform publishing copy.",
             "zh-CN": "一个主题一条流水线出 4K 解说播客视频：查资料、写稿、用本地 EdgeTTS 或 Azure 配音（不依赖外部引擎），每支片子都有记录素材许可来源的 manifest，字幕用 Remotion 原生渲染，另出 9:16 高光短片和各平台发布文案。",
             "ja": "テーマひとつから 4K のナレーション付きビデオポッドキャストまでを一本のパイプラインで。リサーチ、台本、外部エンジン不要のローカル TTS（Edge / Azure）、素材ごとのライセンスを記録するマニフェスト、Remotion ネイティブ字幕、9:16 のハイライト、プラットフォーム別の投稿文まで生成します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "lightricks--ltx-desktop",
+          "type": "repo",
+          "title": "Lightricks/ltx-desktop",
+          "url": "https://github.com/Lightricks/ltx-desktop",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2164,
+          "last_commit": "2026-10-19",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-23",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search / supplied X leads + gh api 2026-10-23"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A local desktop app for LTX text-, image-, and audio-to-video generation, with clip retakes and extensions.",
+            "zh-CN": "在本地桌面运行 LTX 文生视频、图生视频和音频驱动视频，并支持片段重生成与延长。",
+            "ja": "LTXによるテキスト・画像・音声からの動画生成をローカルで実行し、クリップの再生成と延長に対応するデスクトップアプリ。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "Application source is Apache-2.0. Downloaded model weights have separate licenses and may require Hugging Face access approval."
+        },
+        {
+          "id": "skyworkai--matrix-game",
+          "type": "repo",
+          "title": "SkyworkAI/Matrix-Game",
+          "url": "https://github.com/SkyworkAI/Matrix-Game",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 2775,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-23",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search / supplied X leads + gh api 2026-10-23"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Matrix-Game 4.0 transforms game-engine frames into interactive video through streaming neural rendering, with offline inference and a browser demo.",
+            "zh-CN": "Matrix-Game 4.0 用流式神经渲染把游戏引擎画面转换成交互视频，提供离线推理与浏览器演示。",
+            "ja": "Matrix-Game 4.0はゲームエンジンのフレームをストリーミングニューラルレンダリングで対話型動画に変換し、オフライン推論とブラウザデモを提供します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "license_note": "Matrix-Game-4/LICENSE is Apache-2.0; root LICENSE and earlier versions retain MIT. The description refers to v4; third-party components and assets retain their own terms."
+        },
+        {
+          "id": "nomadamas--cozyclay",
+          "type": "repo",
+          "title": "NomaDamas/CozyClay",
+          "url": "https://github.com/NomaDamas/CozyClay",
+          "license": "AGPL-3.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1096,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-26",
+          "source": {
+            "kind": "curation-run",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-26.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Open-source previs in a browser tab: block the set, pose the cast and cut the camera, then hand the shot to an AI video model as a first frame, a greybox clip and a prompt.",
+            "zh-CN": "在浏览器里做开源预演：搭景、摆位、设计运镜，再把首帧、灰模参考片和描述真实取景的提示词一起交给 AI 视频模型。",
+            "ja": "ブラウザで動くオープンソースのプレビズ。セットと配置、カメラの割りを先に決め、最初のフレーム・グレーボックスのクリップ・プロンプトをAI動画モデルに渡します。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -816,6 +886,40 @@
             "ja": "machine-draft"
           },
           "license_note": "GitHub reports NOASSERTION; LICENSE and README are CC BY-NC-SA 4.0 (commercial use prohibited). Checked by hand 2026-10-11."
+        },
+        {
+          "id": "lixiaoxiao9888-create--manju-laoli-skill",
+          "type": "skill",
+          "title": "lixiaoxiao9888-create/manju-laoli-skill",
+          "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1699,
+          "last_commit": "2026-10-21",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Plan short dramas through script, asset, storyboard, action and quality-control stages that produce prompts for video models.",
+            "zh-CN": "把短剧创作拆成剧本、资产、分镜、打戏和质检流程，输出可投喂 Seedance 或 MiniMax 的视频提示词。",
+            "ja": "脚本・素材・絵コンテ・アクション・品質確認を段階化し、動画モデル向けの短編ドラマ用プロンプトを作る。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -967,41 +1071,6 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
-        },
-        {
-          "id": "luoluoluo22--jianying-editor-skill",
-          "type": "skill",
-          "title": "luoluoluo22/jianying-editor-skill",
-          "url": "https://github.com/luoluoluo22/jianying-editor-skill",
-          "license": "MIT",
-          "license_class": "osi",
-          "link_only": false,
-          "stars": 4304,
-          "last_commit": "2026-09-11",
-          "archived": false,
-          "model_weights": false,
-          "last_checked": "2026-10-19",
-          "added_at": "2026-10-11",
-          "source": {
-            "kind": "bei-bookmark-post",
-            "ref": "item inside a bookmarked roundup post"
-          },
-          "token360": {
-            "ready": false,
-            "status": "untested",
-            "guide": null
-          },
-          "blurb": {
-            "en": "Agent skill that automates editing in JianYing (the Chinese edition of CapCut) by writing its project drafts.",
-            "zh-CN": "让 Agent 自动操作剪映草稿、完成剪辑的 Skill。",
-            "ja": "剪映（CapCut 中国版）のプロジェクト下書きを書き換えて編集を自動化するエージェントスキル。"
-          },
-          "blurb_status": {
-            "en": "machine-draft",
-            "zh-CN": "machine-draft",
-            "ja": "machine-draft"
-          },
-          "license_note": "GitHub reports NOASSERTION; LICENSE file opened by hand on 2026-10-11 and is the MIT text."
         },
         {
           "id": "browser-use--video-use",
@@ -1824,6 +1893,108 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "soumatheusgomes--editonny",
+          "type": "skill",
+          "title": "soumatheusgomes/editonny",
+          "url": "https://github.com/soumatheusgomes/editonny",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 367,
+          "last_commit": "2026-10-21",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Edit local recordings through conversation, review a sample, then export an MP4 with cuts, captions and motion scenes.",
+            "zh-CN": "通过对话检查本地录像、删停顿、加字幕与动效，先审阅样片再导出 MP4。",
+            "ja": "対話でローカル録画を編集し、サンプル確認後にカット・字幕・モーション付き MP4 を書き出す。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "actionow-ai--vvv",
+          "type": "skill",
+          "title": "actionow-ai/vvv",
+          "url": "https://github.com/actionow-ai/vvv",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 392,
+          "last_commit": "2026-10-25",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-23",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search / supplied X leads + gh api 2026-10-23"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Reusable video templates and an agent skill that turn photos and copy into checked wedding films and editable projects.",
+            "zh-CN": "用可复用模板和 Agent Skill，把照片与文案制作成经过检查的婚礼视频，并交付可编辑工程。",
+            "ja": "再利用可能なテンプレートとエージェントスキルで、写真と文章から検証済みのウェディング動画と編集可能なプロジェクトを作成します。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "storytold--filmcraft",
+          "type": "repo",
+          "title": "storytold/filmcraft",
+          "url": "https://github.com/storytold/filmcraft",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 16381,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-23",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search / supplied X leads + gh api 2026-10-23"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A nonlinear video editor whose CLI and MCP interfaces let agents cut, grade, mix, and export through the same commands as its desktop UI.",
+            "zh-CN": "非线性视频剪辑器，通过 CLI 和 MCP 让 Agent 使用与桌面界面相同的指令剪辑、调色、混音与导出。",
+            "ja": "CLIとMCPを通じて、デスクトップUIと同じコマンドでエージェントが編集・カラー調整・ミキシング・書き出しを行える動画エディター。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },
@@ -2541,6 +2712,176 @@
             "en": "Turns a conversation into a full album production line: concept planning, parallel research with cross-verified sources, lyrics, Suno prompts, audio mastering and release prep, with a quality gate at every stage.",
             "zh-CN": "把一段对话变成整张专辑的生产线：概念策划、并行查证（交叉核对来源）、写词、生成 Suno 提示词、母带处理到发行准备，每个阶段都有质量关卡。",
             "ja": "会話をアルバム 1 枚分の制作ラインに変えるスキル。コンセプト設計、出典を相互検証する並列リサーチ、作詞、Suno 用プロンプト、マスタリング、リリース準備までを各段階の品質ゲート付きで進めます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "blaizzy--mlx-audio",
+          "type": "repo",
+          "title": "Blaizzy/mlx-audio",
+          "url": "https://github.com/Blaizzy/mlx-audio",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 8107,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Run speech synthesis, recognition and speech-to-speech models locally on Apple Silicon through MLX.",
+            "zh-CN": "在 Apple Silicon 上通过 MLX 运行语音合成、识别和语音转换，适合把本地配音能力接进创作脚本。",
+            "ja": "Apple Silicon 上で MLX による音声合成・認識・音声変換をローカル実行。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "timoncool--yue2-studio",
+          "type": "repo",
+          "title": "timoncool/YuE2-Studio",
+          "url": "https://github.com/timoncool/YuE2-Studio",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1377,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Generate vocal songs locally with YuE2 in a desktop studio with editable scores and repeatable generation.",
+            "zh-CN": "把 YuE2 歌曲生成做成带可编辑乐谱的本地桌面工作台，支持人声歌曲和可重复生成。",
+            "ja": "編集可能な楽譜と再生成に対応するデスクトップ環境で、YuE2 の歌声付き楽曲をローカル生成。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "soniqo--speech-swift",
+          "type": "repo",
+          "title": "soniqo/speech-swift",
+          "url": "https://github.com/soniqo/speech-swift",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1249,
+          "last_commit": "2026-10-25",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Integrate speech synthesis, recognition, diarization and speech-to-speech models into Apple apps with Swift, MLX and CoreML.",
+            "zh-CN": "用 Swift 把 MLX 与 CoreML 的语音合成、识别、分离说话人和语音转换能力接入 Apple 应用。",
+            "ja": "Swift・MLX・CoreML を使い、音声合成・認識・話者分離・音声変換を Apple アプリに組み込む。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "iahispano--applio",
+          "type": "repo",
+          "title": "IAHispano/Applio",
+          "url": "https://github.com/IAHispano/Applio",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 3898,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Train and run voice-conversion models through a local interface to transform existing recordings into a target voice.",
+            "zh-CN": "用本地界面训练与运行声音转换模型，把已有录音转换为目标音色。",
+            "ja": "ローカル UI で音声変換モデルを学習・実行し、既存録音を目的の声質へ変換する。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "bytedance--megatts3",
+          "type": "repo",
+          "title": "bytedance/MegaTTS3",
+          "url": "https://github.com/bytedance/MegaTTS3",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 6116,
+          "last_commit": "2026-06-15",
+          "archived": false,
+          "model_weights": true,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "x-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Research speech synthesis with adjustable similarity and pronunciation controls, requiring reference audio and pre-extracted latents.",
+            "zh-CN": "提供带可调相似度和发音参数的语音合成研究实现，推理需配套的参考音频与预提取潜变量。",
+            "ja": "類似度と発音を調整できる音声合成研究実装で、参照音声と事前抽出済み潜在表現が必要。"
           },
           "blurb_status": {
             "en": "machine-draft",
@@ -3763,6 +4104,113 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "kyanitelabs--kinocut",
+          "type": "mcp",
+          "title": "KyaniteLabs/kinocut",
+          "url": "https://github.com/KyaniteLabs/kinocut",
+          "license": "Apache-2.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 222,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-21",
+          "source": {
+            "kind": "github-search",
+            "ref": "2026-10-21 GitHub API; 2026-10-21-x-leads.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A local video-editing MCP server that trims, captions and repurposes recordings with edit receipts and quality checks.",
+            "zh-CN": "把本地采访或播客裁成带字幕的竖屏短片，并提供编辑记录与质量检查，适合 Agent 可复核的剪辑链路。",
+            "ja": "ローカル動画を切り抜き、字幕と縦型版を作り、編集記録と品質チェックを返す MCP サーバー。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "js713-lab--sonic-match-mcp",
+          "type": "mcp",
+          "title": "js713-lab/sonic-match-mcp",
+          "url": "https://github.com/js713-lab/sonic-match-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 153,
+          "last_commit": "2026-10-21",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-23",
+          "source": {
+            "kind": "github-search",
+            "ref": "GitHub search / supplied X leads + gh api 2026-10-23"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "An MCP server that analyzes local video, recommends licensed background music, and exports ducking and mixing instructions.",
+            "zh-CN": "分析本地视频、推荐附许可信息的背景音乐，并导出音量避让与混音指令的 MCP 服务。",
+            "ja": "ローカル動画を分析し、ライセンス情報付きのBGM候補とダッキング・ミキシング指示を返すMCPサーバー。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
+        },
+        {
+          "id": "kanaworksai-hue--audio-studio-mcp",
+          "type": "mcp",
+          "title": "kanaworksai-hue/audio-studio-mcp",
+          "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+          "license": "MIT",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 501,
+          "last_commit": "2026-10-24",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-26",
+          "source": {
+            "kind": "curation-run",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-26.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "MCP server that generates background music and sound effects locally with Stable Audio 3, then loops, normalizes and exports them for a video editor or game engine.",
+            "zh-CN": "用本地 Stable Audio 3 生成背景音乐和音效的 MCP 服务，并能做无缝循环、响度归一化，导出给剪辑软件或游戏引擎。",
+            "ja": "ローカルのStable Audio 3でBGMと効果音を生成し、シームレスループ化・ラウドネス調整・書き出しまで行うMCPサーバー。動画編集ソフトやゲームエンジンにそのまま渡せます。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "Created 2026-10-18 with one maintainer; generation needs Apple Silicon (MLX) or an NVIDIA GPU, and the installer clones the Stable Audio 3 runtime separately.",
+            "zh-CN": "2026-10-18 建仓、单人维护；实际生成需要 Apple Silicon（MLX）或 NVIDIA 显卡，Stable Audio 3 运行时由安装脚本另行克隆。",
+            "ja": "2026-10-18作成、メンテナー1名。生成にはApple Silicon（MLX）かNVIDIA GPUが必要で、Stable Audio 3ランタイムはインストーラーが別途取得します。"
+          }
         }
       ]
     },
@@ -4427,6 +4875,45 @@
             "ja": "machine-draft"
           },
           "license_note": "GitHub reports NOASSERTION; LICENSE is CC BY 4.0, an open content license that allows commercial use (OSI does not review content licenses). Checked by hand 2026-10-11."
+        },
+        {
+          "id": "zhuyansen--awesome-claude-video-skills",
+          "type": "list",
+          "title": "zhuyansen/awesome-claude-video-skills",
+          "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+          "license": "CC0-1.0",
+          "license_class": "osi",
+          "link_only": false,
+          "stars": 1021,
+          "last_commit": "2026-10-26",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-10-26",
+          "added_at": "2026-10-26",
+          "source": {
+            "kind": "curation-run",
+            "ref": "content-team/06-analysis/awesome-curation/2026-10-26.md"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "A curated list of 353 open-source skills and toolkits that let coding agents make video, each one read and graded for safety.",
+            "zh-CN": "收录 353 个让编码 Agent 做视频的开源 skill 与工具包的清单，每条都逐个读过并标了安全等级。",
+            "ja": "コーディングエージェントで動画を作るためのオープンソーススキル・ツールキット353件をまとめたリスト。各項目を読み込み、安全性の評価を付けています。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          },
+          "caveat": {
+            "en": "The list and its entries link to the maintainer's own Agent Skills Hub site with tracking parameters.",
+            "zh-CN": "清单和条目链接大量导向维护者自营的 Agent Skills Hub 站点，并带跟踪参数。",
+            "ja": "リストと各項目はメンテナー自身が運営するAgent Skills Hubへトラッキングパラメータ付きでリンクしています。"
+          }
         }
       ]
     }
