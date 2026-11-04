@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-136-9633af" alt="entries: 136" />
+  <img src="https://img.shields.io/badge/entries-137-9633af" alt="entries: 137" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 136 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 137 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -61,7 +61,7 @@ curl https://api.token360.ai/v1/videos \
 
 ## 目次
 
-- [動画生成とプロンプト](#動画生成とプロンプト) (14)
+- [動画生成とプロンプト](#動画生成とプロンプト) (15)
 - [ショートドラマとストーリー](#ショートドラマとストーリー) (10)
 - [編集・モーションエージェント](#編集モーションエージェント) (31)
 - [音声・TTS・音楽](#音声tts音楽) (25)
@@ -89,6 +89,7 @@ curl https://api.token360.ai/v1/videos \
 - [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · LTXによるテキスト・画像・音声からの動画生成をローカルで実行し、クリップの再生成と延長に対応するデスクトップアプリ。
 - [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0はゲームエンジンのフレームをストリーミングニューラルレンダリングで対話型動画に変換し、オフライン推論とブラウザデモを提供します。
 - [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · ブラウザで動くオープンソースのプレビズ。セットと配置、カメラの割りを先に決め、最初のフレーム・グレーボックスのクリップ・プロンプトをAI動画モデルに渡します。
+- [yang0/handraw-style](https://github.com/yang0/handraw-style) - `Skill` ⛔ · ⭐ 7k · MIT with Attribution Requirement · 番号付きの手描きスタイル集を備えたスキル（365 のビジュアルスタイル、170 のレイアウト、36 のパレット）。番号とテーマを選ぶと中英バイリンガルの画像プロンプトを返し、キーフレームやカバー、絵コンテに使えます。⚠️ ライセンスは帰属表示要件付きの MIT：商用利用は可能ですが、派生物には作者 yang0 と元リポジトリへのリンクの明記が必要です。
 
 ## ショートドラマとストーリー
 

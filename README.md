@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-136-9633af" alt="entries: 136" />
+  <img src="https://img.shields.io/badge/entries-137-9633af" alt="entries: 137" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>136 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>137 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -61,7 +61,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 
 ## Contents
 
-- [Video generation & prompting](#video-generation--prompting) (14)
+- [Video generation & prompting](#video-generation--prompting) (15)
 - [Short drama & storytelling](#short-drama--storytelling) (10)
 - [Editing & motion agents](#editing--motion-agents) (31)
 - [Voice, TTS & music](#voice-tts--music) (25)
@@ -89,6 +89,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · A local desktop app for LTX text-, image-, and audio-to-video generation, with clip retakes and extensions.
 - [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0 transforms game-engine frames into interactive video through streaming neural rendering, with offline inference and a browser demo.
 - [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · Open-source previs in a browser tab: block the set, pose the cast and cut the camera, then hand the shot to an AI video model as a first frame, a greybox clip and a prompt.
+- [yang0/handraw-style](https://github.com/yang0/handraw-style) - `Skill` ⛔ · ⭐ 7k · MIT with Attribution Requirement · Agent skill with a numbered gallery of hand-drawn visual styles (365 styles, 170 layout types, 36 palettes): pick a number and a topic and it returns bilingual Chinese/English image prompts, useful for keyframes, covers and storyboards. ⚠️ License is MIT with an added attribution requirement: commercial use is allowed, but derived work must credit yang0 and link the original repo.
 
 ## Short drama & storytelling
 

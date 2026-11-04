@@ -569,6 +569,40 @@
             "zh-CN": "machine-draft",
             "ja": "machine-draft"
           }
+        },
+        {
+          "id": "yang0--handraw-style",
+          "type": "skill",
+          "title": "yang0/handraw-style",
+          "url": "https://github.com/yang0/handraw-style",
+          "license": "MIT with Attribution Requirement",
+          "license_class": "source-available",
+          "link_only": true,
+          "stars": 7008,
+          "last_commit": "2026-11-03",
+          "archived": false,
+          "model_weights": false,
+          "last_checked": "2026-11-03",
+          "added_at": "2026-11-03",
+          "source": {
+            "kind": "x-post",
+            "ref": "https://x.com/yiyirats/status/2117565953022026236"
+          },
+          "token360": {
+            "ready": false,
+            "status": "untested",
+            "guide": null
+          },
+          "blurb": {
+            "en": "Agent skill with a numbered gallery of hand-drawn visual styles (365 styles, 170 layout types, 36 palettes): pick a number and a topic and it returns bilingual Chinese/English image prompts, useful for keyframes, covers and storyboards. ⚠️ License is MIT with an added attribution requirement: commercial use is allowed, but derived work must credit yang0 and link the original repo.",
+            "zh-CN": "带编号画廊的手绘风格 Skill（365 种视觉风格、170 种版式、36 套配色）：选一个编号再给主题，即可得到中英双语的图像提示词，适合做关键帧、封面和分镜。⚠️ 许可证为附加署名要求的 MIT：允许商用，但衍生作品须注明原作者 yang0 并附原仓库链接。",
+            "ja": "番号付きの手描きスタイル集を備えたスキル（365 のビジュアルスタイル、170 のレイアウト、36 のパレット）。番号とテーマを選ぶと中英バイリンガルの画像プロンプトを返し、キーフレームやカバー、絵コンテに使えます。⚠️ ライセンスは帰属表示要件付きの MIT：商用利用は可能ですが、派生物には作者 yang0 と元リポジトリへのリンクの明記が必要です。"
+          },
+          "blurb_status": {
+            "en": "machine-draft",
+            "zh-CN": "machine-draft",
+            "ja": "machine-draft"
+          }
         }
       ]
     },

@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-136-9633af" alt="条目: 136" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-137-9633af" alt="条目: 137" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 136 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 137 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -61,7 +61,7 @@ curl https://api.token360.ai/v1/videos \
 
 ## 目录
 
-- [视频生成与提示词](#视频生成与提示词) (14)
+- [视频生成与提示词](#视频生成与提示词) (15)
 - [短剧与叙事](#短剧与叙事) (10)
 - [剪辑与动效 Agent](#剪辑与动效-agent) (31)
 - [配音、TTS 与音乐](#配音tts-与音乐) (25)
@@ -89,6 +89,7 @@ curl https://api.token360.ai/v1/videos \
 - [Lightricks/ltx-desktop](https://github.com/Lightricks/ltx-desktop) - `Repo` · ⭐ 2.2k · Apache-2.0 · 在本地桌面运行 LTX 文生视频、图生视频和音频驱动视频，并支持片段重生成与延长。
 - [SkyworkAI/Matrix-Game](https://github.com/SkyworkAI/Matrix-Game) - `Repo` · ⭐ 2.8k · Apache-2.0 · Matrix-Game 4.0 用流式神经渲染把游戏引擎画面转换成交互视频，提供离线推理与浏览器演示。
 - [NomaDamas/CozyClay](https://github.com/NomaDamas/CozyClay) - `Repo` · ⭐ 1.1k · AGPL-3.0 · 在浏览器里做开源预演：搭景、摆位、设计运镜，再把首帧、灰模参考片和描述真实取景的提示词一起交给 AI 视频模型。
+- [yang0/handraw-style](https://github.com/yang0/handraw-style) - `Skill` ⛔ · ⭐ 7k · MIT with Attribution Requirement · 带编号画廊的手绘风格 Skill（365 种视觉风格、170 种版式、36 套配色）：选一个编号再给主题，即可得到中英双语的图像提示词，适合做关键帧、封面和分镜。⚠️ 许可证为附加署名要求的 MIT：允许商用，但衍生作品须注明原作者 yang0 并附原仓库链接。
 
 ## 短剧与叙事
 
