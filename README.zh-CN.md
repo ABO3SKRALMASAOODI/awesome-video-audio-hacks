@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-135-9633af" alt="条目: 135" />
+  <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-136-9633af" alt="条目: 136" />
   <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 135 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 136 条，11 个分类 · 最近核验 2026-10-11</sub>
 
 ## Token360 快速上手
 
@@ -63,7 +63,7 @@ curl https://api.token360.ai/v1/videos \
 
 - [视频生成与提示词](#视频生成与提示词) (14)
 - [短剧与叙事](#短剧与叙事) (10)
-- [剪辑与动效 Agent](#剪辑与动效-agent) (30)
+- [剪辑与动效 Agent](#剪辑与动效-agent) (31)
 - [配音、TTS 与音乐](#配音tts-与音乐) (25)
 - [翻译配音与字幕](#翻译配音与字幕) (8)
 - [对口型与数字人](#对口型与数字人) (7)
@@ -129,6 +129,7 @@ curl https://api.token360.ai/v1/videos \
 - [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) - `Repo` · ⭐ 2.5k · AGPL-3.0 · 本地优先的对话式剪辑器：在聊天里说出要怎么剪，它操作专业多轨时间线并用 Remotion 渲染，同一套流程也以 Agent Skill 和 MCP server 暴露出来。 ⚠️ 图像/视频生成走自带 key 的供应商（OpenAI、Gemini、Seedance、Kling，Fal 可选），生成费用记在你自己的供应商账户上。
 - [openfilm/openfilm](https://github.com/openfilm/openfilm) - `Repo` · ⭐ 1.3k · MIT · 让编码 Agent 把片子写成普通网页，每个镜头一个 `frame(t)` 函数，再用本地浏览器里的 Studio 编辑器把它做出来的东西逐个挪位、改样式、裁剪和重剪，最后导出 MP4；不用框架、不用账号。
 - [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) - `Skill` · ⭐ 677 · MIT · 让 Agent 真正去「导」一支发布片而不是拼动效组件：先写三个概念，再从 273 个带时长配方的手法里抽出分镜计划，用三个性格词推导品牌视觉，配上代码生成的音效，过完运动模糊、音画同步和影评关卡才算交片；底层可选 Remotion 或 HyperFrames。
+- [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) - `Skill` · ⭐ 1.2k · MIT · 免费的 Claude Skill，制作 55–70 秒竖屏动画故事短片：带描边的 2D 扁平角色置身彩色 3D 场景，景深、运镜、旁白、合成配乐与音效齐全；全部用 three.js + Remotion 在本地渲染，不调用 AI 视频生成，没有按条计费。⚠️ 依赖 Remotion，其许可证对部分商业用途要求购买公司授权。
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · 七个 skill 把一段或几段视频做成中文解说成片：Agent 看懂画面与对白，定故事和视听方案，再剪辑、写稿、配音、混音、上字幕；本地只要 ffmpeg，成片还能一键导成剪映草稿继续改。
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · 一句话说清要什么片，一组 Agent skill 负责导，渲染全在你自己的机器上，不需要 GPU；项目自己的 55 秒合集片就是在纯 CPU 上 2 分 23 秒渲出来的。同时提供 skill 包、MCP server 和插件三种接法。
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · 不做黑盒视频 Agent：一支片子就是一份可读、可 diff 的 `plan.json`，你和 Agent 都能逐行改，改哪段只重渲哪段；底层是 HyperFrames、ffmpeg 和 whisper.cpp 的确定性薄封装，命令行或 MCP 都能驱动。

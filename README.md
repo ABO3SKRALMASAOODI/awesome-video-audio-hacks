@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-135-9633af" alt="entries: 135" />
+  <img src="https://img.shields.io/badge/entries-136-9633af" alt="entries: 136" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>135 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>136 entries across 11 sections · last verified 2026-10-11</sub>
 
 ## Token360 quickstart
 
@@ -63,7 +63,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 
 - [Video generation & prompting](#video-generation--prompting) (14)
 - [Short drama & storytelling](#short-drama--storytelling) (10)
-- [Editing & motion agents](#editing--motion-agents) (30)
+- [Editing & motion agents](#editing--motion-agents) (31)
 - [Voice, TTS & music](#voice-tts--music) (25)
 - [Dubbing & subtitles](#dubbing--subtitles) (8)
 - [Lip-sync & digital humans](#lip-sync--digital-humans) (7)
@@ -129,6 +129,7 @@ Full model list and per-model request examples: [token360.ai/models](https://www
 - [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) - `Repo` · ⭐ 2.5k · AGPL-3.0 · Local-first conversational video editor: tell it the edit in chat and it works a professional multi-track timeline, renders through Remotion, and exposes the same pipeline as Agent Skills and an MCP server. ⚠️ Image and video generation providers are bring-your-own-key (OpenAI, Gemini, Seedance, Kling, optionally Fal); generation is billed to your own provider account.
 - [openfilm/openfilm](https://github.com/openfilm/openfilm) - `Repo` · ⭐ 1.3k · MIT · Your coding agent writes a film as plain web pages, one `frame(t)` function per shot, and Studio, a local browser editor, lets you move, restyle, trim and recut anything it made before rendering the MP4; no framework and no account.
 - [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) - `Skill` · ⭐ 677 · MIT · Agent skill that directs a launch film instead of arranging components: it writes three concepts, draws a shot plan from 273 timed techniques, derives a brand from three personality words, scores it with code-rendered sound, and ships only after motion-blur, sync and critic gates, on Remotion or HyperFrames.
+- [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) - `Skill` · ⭐ 1.2k · MIT · Free Claude skill for 55-70 s vertical animated story shorts: flat 2D characters with ink outlines in a colourful 3D world, depth of field, gliding cameras, narration, synthesized music and SFX, all rendered locally with three.js inside Remotion, with no AI video generator and no per-clip generation fee. ⚠️ Renders with Remotion, whose own license requires a paid company license for some commercial use.
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · Seven agent skills that turn one or more source videos into a finished Chinese narration recap: the agent reads picture and dialogue, plans the story, cuts, writes, voices, mixes and subtitles it, needing only ffmpeg locally, and can export the result as a Jianying draft to keep editing.
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · Describe a video in one sentence and a crew of agent skills directs it while your own machine renders it, no GPU required; the project's 55-second showreel was rendered in 2 min 23 s on CPU, and it ships as a skill pack, an MCP server and a plugin.
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · Not a black-box video agent: a video is a readable, diffable `plan.json` that you and your agent can edit line by line, with only the changed piece re-rendering, over thin deterministic wrappers around HyperFrames, ffmpeg and whisper.cpp, driven from a shell or over MCP.

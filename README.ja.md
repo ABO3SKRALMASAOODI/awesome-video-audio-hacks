@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <img src="https://img.shields.io/badge/entries-135-9633af" alt="entries: 135" />
+  <img src="https://img.shields.io/badge/entries-136-9633af" alt="entries: 136" />
   <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 135 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 136 件 · 最終確認 2026-10-11</sub>
 
 ## Token360 クイックスタート
 
@@ -63,7 +63,7 @@ curl https://api.token360.ai/v1/videos \
 
 - [動画生成とプロンプト](#動画生成とプロンプト) (14)
 - [ショートドラマとストーリー](#ショートドラマとストーリー) (10)
-- [編集・モーションエージェント](#編集モーションエージェント) (30)
+- [編集・モーションエージェント](#編集モーションエージェント) (31)
 - [音声・TTS・音楽](#音声tts音楽) (25)
 - [吹き替えと字幕](#吹き替えと字幕) (8)
 - [リップシンクとデジタルヒューマン](#リップシンクとデジタルヒューマン) (7)
@@ -129,6 +129,7 @@ curl https://api.token360.ai/v1/videos \
 - [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) - `Repo` · ⭐ 2.5k · AGPL-3.0 · ローカル優先の対話型ビデオエディター。チャットで編集を伝えるとプロ仕様のマルチトラックタイムラインを操作し、Remotion でレンダリング。同じパイプラインをエージェントスキルと MCP サーバーとしても公開。 ⚠️ 画像・動画生成は自分の API キーを使うプロバイダー方式（OpenAI、Gemini、Seedance、Kling、任意で Fal）で、生成費用は各自のアカウントに課金されます。
 - [openfilm/openfilm](https://github.com/openfilm/openfilm) - `Repo` · ⭐ 1.3k · MIT · コーディングエージェントが映像をただの Web ページとして書き、各ショットは `frame(t)` 関数ひとつ。ブラウザで動くローカルエディタ Studio で位置・スタイル・トリミング・カットを自由に直してから MP4 に書き出せます。フレームワークもアカウントも不要。
 - [Leonxlnx/cinetic](https://github.com/Leonxlnx/cinetic) - `Skill` · ⭐ 677 · MIT · コンポーネントを並べるのではなく、ローンチ映像を「演出」させるエージェントスキル。3 つのコンセプトを書き、尺付き 273 技法からショット計画を引き、3 つの性格語からブランドを導き、コードで作った音を当て、モーションブラー・同期・批評のゲートを通してから書き出します。Remotion と HyperFrames に対応。
+- [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) - `Skill` · ⭐ 1.2k · MIT · 55〜70 秒の縦型アニメ物語ショートを作る無料の Claude スキル。輪郭線付きの 2D キャラクターがカラフルな 3D 世界に立ち、被写界深度、カメラワーク、ナレーション、合成した音楽と効果音まで、three.js と Remotion でローカルにレンダリングします。AI 動画生成は使わず、1 本ごとの生成料金はかかりません。⚠️ Remotion のライセンスは一部の商用利用で有料の企業ライセンスを求めます。
 - [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) - `Skill` · ⭐ 582 · MIT · 7 つのスキルで、1 本または複数の動画を中国語ナレーションの完成尺に仕上げます。エージェントが映像とセリフを読み、構成を決め、編集・原稿・音声・ミックス・字幕まで担当。ローカルに必要なのは ffmpeg だけで、成果物は剪映（CapCut 中国版）の下書きとして書き出して続きを編集できます。
 - [FavioVazquez/showtime](https://github.com/FavioVazquez/showtime) - `Skill` · ⭐ 267 · MIT · 作りたい映像を一文で伝えると、エージェントスキルの「クルー」が演出し、レンダリングは手元のマシンで完結します（GPU 不要）。公式の 55 秒ショーリールは CPU のみで 2 分 23 秒で書き出されました。スキルパック・MCP サーバー・プラグインの 3 形態を同梱。
 - [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - `Skill` · ⭐ 331 · MIT · ブラックボックスの動画エージェントではありません。1 本の動画は読める・差分が取れる `plan.json` で、あなたもエージェントも 1 行ずつ編集でき、変えた部分だけ再レンダリングされます。中身は HyperFrames・ffmpeg・whisper.cpp の決定的な薄いラッパーで、シェルからも MCP からも操作できます。
