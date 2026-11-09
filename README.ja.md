@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <img src="https://img.shields.io/badge/entries-137-9633af" alt="entries: 137" />
-  <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
+  <img src="https://img.shields.io/badge/last_verified-2026--10--16-informational" alt="last verified: 2026-10-16" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
@@ -23,7 +23,7 @@
 
 ⚡ = Token360 上でエンドツーエンドに動作確認済みで、公開ガイドあり。⚡ のない項目は未検証です。🔷 Token360 版 = Token360 コミュニティが保守する fork で、検証済みの Token360 クイックスタートを追加したもの。成果・クレジット・ライセンスは元の作者に帰属し、⭐ は元リポジトリのスター数です。
 
-<sub>11 カテゴリ・全 137 件 · 最終確認 2026-10-11</sub>
+<sub>11 カテゴリ・全 137 件 · 最終確認 2026-10-16</sub>
 
 ## Token360 クイックスタート
 
