@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <img src="https://img.shields.io/badge/%E6%9D%A1%E7%9B%AE-138-9633af" alt="条目: 138" />
-  <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--11-informational" alt="最近核验: 2026-10-11" />
+  <img src="https://img.shields.io/badge/%E6%9C%80%E8%BF%91%E6%A0%B8%E9%AA%8C-2026--10--16-informational" alt="最近核验: 2026-10-16" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
@@ -23,7 +23,7 @@
 
 ⚡ = 已在 Token360 上端到端跑通，并附已发布的教程；没有 ⚡ 的条目都还没测过。🔷 Token360 版 = Token360 社区维护的 fork，加了实测可用的 Token360 快速上手；作品、署名和许可证仍归原作者，⭐ 显示的是原仓库的星数。
 
-<sub>共 138 条，11 个分类 · 最近核验 2026-10-11</sub>
+<sub>共 138 条，11 个分类 · 最近核验 2026-10-16</sub>
 
 ## Token360 快速上手
 

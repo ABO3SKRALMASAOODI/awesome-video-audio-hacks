@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <img src="https://img.shields.io/badge/entries-138-9633af" alt="entries: 138" />
-  <img src="https://img.shields.io/badge/last_verified-2026--10--11-informational" alt="last verified: 2026-10-11" />
+  <img src="https://img.shields.io/badge/last_verified-2026--10--16-informational" alt="last verified: 2026-10-16" />
   <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey" alt="License: CC0-1.0" />
 </p>
 
@@ -23,7 +23,7 @@
 
 ⚡ = run end to end on Token360, with a published guide; entries without ⚡ have not been tested. 🔷 Token360 edition = a fork maintained by the Token360 community that adds a tested Token360 quick start; the work, credit and license stay with the original author, and ⭐ shows the original repo's stars.
 
-<sub>138 entries across 11 sections · last verified 2026-10-11</sub>
+<sub>138 entries across 11 sections · last verified 2026-10-16</sub>
 
 ## Token360 quickstart
 
